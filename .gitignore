@@ -1,0 +1,32 @@
+# ========== Python ==========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+
+# ========== 仮想環境 ==========
+face_env/
+venv/
+.venv/
+env/
+
+# ========== IDE / エディタ ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========== OS ==========
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ========== face_filter プロジェクト ==========
+# 個人情報を含む画像はコミットしない
+face_filter/face_database/
+face_filter/output_debug/
+
+# Excel出力もコミットしない（生成物 + 個人情報）
+face_filter/output/
